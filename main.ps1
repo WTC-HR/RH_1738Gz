@@ -164,10 +164,10 @@ function Invoke-ANTIVM {
 
 function Invoke-ANTITOTAL {
     $urls = @(
-        "https://raw.githubusercontent.com/HR/virustotal-vm-blacklist/main/mac_list.txt",
-        "https://raw.githubusercontent.com/HR/virustotal-vm-blacklist/main/ip_list.txt",
-        "https://raw.githubusercontent.com/HR/virustotal-vm-blacklist/main/hwid_list.txt",
-        "https://raw.githubusercontent.com/HR/virustotal-vm-blacklist/main/pc_username_list.txt"
+        "https://raw.githubusercontent.com/HR1738Gz/virustotal-vm-blacklist/main/mac_list.txt",
+        "https://raw.githubusercontent.com/HR1738Gz/virustotal-vm-blacklist/main/ip_list.txt",
+        "https://raw.githubusercontent.com/HR1738Gz/virustotal-vm-blacklist/main/hwid_list.txt",
+        "https://raw.githubusercontent.com/HR1738Gz/virustotal-vm-blacklist/main/pc_username_list.txt"
     )
     $functions = @(
         "Search-Mac",
